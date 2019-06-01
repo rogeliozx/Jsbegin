@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+    
+    
+    <script type="text/javascript" src="js/interface.js"></script>
+<style>
+.elemento{width: 10vw;
+height: 10vw;
+border: 4px solid black;
+background: lightsteelblue;
+margin: 20px;
+float: left; 
+}
+.lista li{
+width: 80%;
+padding: 1.5vw;
+border: 2px solid gray;
+list-style: none;
+cursor: grab;
+}
+ul .ui-selecting{
+    background: green;
+}
+ul .ui-selected{
+    background: blue;
+}
+#movido{
+    width: 10vw;
+height: 10vw;
+border: 2px solid red;
+}
+#area{
+    
+    width: 20vw;
+height: 20vw;
+border: 2px solid gray;
+}
+</style>
+</head>
+<body>
+    <h1>Jquery-UI</h1>
+
+
+<hr>
+<a href="#" title="Datos de la web" id="datos">Mis datos</a>
+<hr>
+    <button id="mostrar" title="Datos de la web">Mostrar</button>
+    <div id="movido" title="Datos de la web"></div>
+    <br>
+    <div id="area"></div>
+    
+    <div id="caja" class="elemento">
+        hola mundo 
+    </div>
+    <div id="pop" title="¿Hola mundo?">
+        <p>Hola deberias decir si :v</p>
+    </div>
+    
+</body>
+</html>
